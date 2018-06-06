@@ -2,7 +2,7 @@
 
 Follow this README in order to properly run this application.
 
-Live App: coming soon.
+Live App: https://survey-form-fcc.herokuapp.com/
 
 ## Prerequisites for Local Installation.
 
@@ -20,7 +20,5 @@ CLIENT
 
 
 ## Running / Development
-
-
 * Backend run `node server.js`
 * Visit your app at [http://localhost:3000](http://localhost:3000).
