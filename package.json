@@ -1,0 +1,19 @@
+{
+  "name": "survey_form",
+  "version": "1.0.0",
+  "description": "This is a survey form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hcuffy@github.com/hcuffy/survey_form.git"
+  },
+  "author": "Henry Cuffy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcuffy/survey_form/issues"
+  },
+  "homepage": "https://github.com/hcuffy/survey_form#readme"
+}
