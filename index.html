@@ -8,9 +8,9 @@
   <title>Survey</title>
 </head>
 <body>
-<h1 id="title">Run Survey</h1>
+<h1 id="title">Fit-Meet Survey</h1>
 <div id="container">
-  <p id="description"> Welcome to run survey; this survey is will be used to gain information about the different aspects of running in your areas.</p>
+  <p id="description"> Welcome to fit-meet survey; this survey is will be used to gain information about the different aspects of running in your areas.</p>
   <form id="survey-form">
     <div class="form-group">
       <label for="name" id="name-label">*Enter your full name.
@@ -25,7 +25,7 @@
       </label>
       <input id="number" class="form-control personal-data" type="number" placeholder="Enter your age" min="17" max="100" required>
     </div>
-    <div>
+    <div class="run-info">
       Which surface do you prefer running on? <select id="dropdown" class="form-control personal-data">
           <option value="Trails">Trails</option>
           <option value="Pavement">Pavement</option>
@@ -62,7 +62,53 @@
           </label>
          </div>
       </div>
-
+      <br>
+      <div class="excersise-info">
+         <label>Do you participate in other activities?
+         </label>
+         <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="option-1" id="swimming">
+          <label class="form-check-label" for="swimming">
+            swimming
+          </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="option-2" id="Hiking">
+        <label class="form-check-label" for="Hiking">
+          Hiking
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="option-3" id="Cycling">
+        <label class="form-check-label" for="Cycling">
+          Cycling
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="option-4" id="Mountain">
+        <label class="form-check-label" for="Mountain">
+          Mountain Biking
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="option-5" id="Lifting">
+        <label class="form-check-label" for="Lifting">
+          Weight Lifting
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="option-6" id="nothing">
+        <label class="form-check-label" for="nothing">
+          None of the above
+        </label>
+      </div>
+      <br>
+      <div class="form-group">
+          <label for="comments">Do you have any additional comments?
+          </label>
+          <textarea class="form-control" id="comments" rows="3"></textarea>
+      </div>
+       </div>
       <button id="submit" type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
