@@ -1,0 +1,12 @@
+body {
+  background-color: #4286f4;
+}
+
+#container {
+  margin: auto;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}

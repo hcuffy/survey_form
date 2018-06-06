@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hcuffy/survey_form/issues"
   },
-  "homepage": "https://github.com/hcuffy/survey_form#readme"
+  "homepage": "https://github.com/hcuffy/survey_form#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
