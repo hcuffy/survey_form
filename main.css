@@ -2,11 +2,13 @@ body {
   background-color: #4286f4;
 }
 
-#container {
-  margin: auto;
-  background-color: white;
-}
-
 h1 {
   text-align: center;
+  margin-top: 80px;
+}
+
+#container {
+  margin: 100px 80px auto 80px;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
 }
